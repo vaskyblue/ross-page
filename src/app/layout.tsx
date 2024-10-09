@@ -19,6 +19,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "RossNeural - AI Solutions for Robotics and Logistics",
   description: "Advanced AI models for delivery robots, warehouse management, and logistics systems.",
+  icons: {
+    icon: '/images/icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/icon.png" sizes="any" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
