@@ -14,7 +14,7 @@ export default function Solutions() {
     <Container size="4" className="py-16">
       <Heading size="8" mb="4">Our Solutions</Heading>
       <Text as="p" size="4" mb="8">
-        RossNeural delivers AI models tailored to each client's specific needs, ensuring optimal and continuous control of their operations.
+        RossNeural delivers AI models tailored to each client&apos;s specific needs, ensuring optimal and continuous control of their operations.
       </Text>
       <Grid columns={{ initial: '1', sm: '2', md: '3' }} gap="4">
         {solutions.map((solution, index) => (

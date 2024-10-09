@@ -3,6 +3,9 @@ import { Container, Heading, Text, TextField, TextArea, Button } from '@radix-ui
 export default function Contact() {
   return (
     <Container size="3" className="py-16">
+        <Heading>
+            Contacts
+        </Heading>
       
     </Container>
   );
